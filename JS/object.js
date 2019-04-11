@@ -15,7 +15,7 @@ console.log("what colors are our cupcakes?", cupcake.color)
 console.log("what color is our last cupcake?", cupcake.color[2])
 
 for (let i = 0; i < cupcake.color.length; i++) {
-    console.log("cupcake colors in a for loop:", cupcake.color[i])
+    console.log(`cupcake colors in a for loop:${i}`, cupcake.color[i])
 }
 
 cupcake.color.forEach (color => {
@@ -39,7 +39,6 @@ console.log("My Car as an object =>", car)
 // Lightning Exercise 2: Given two options of data structures - array or object - which should you use? You need to store list of animal names in a shelter. The names are "Kippers", "Jack", "Gypsy", "Angus", "Seymour Bouts", and "Sharky".
 
 const animals = ["Kippers", "Jack", "Gypsy", "Angus", "Seymour Bouts", "Sharky"]
-
 console.log("An array of the shelter animals", animals)
 
 // Lightning Exercise 3: Define an object for four family members, and put each object in an array named familyMembers. Each family member object that you create should have the same keys on them, but the values will be different.
